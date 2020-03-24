@@ -1,13 +1,14 @@
-#This code creates a small red circle in the middle
+#This code creates a red big circle 
 
 from turtle import Turtle
 c = Turtle()
-
-def smallcircle():
-  c.hideturtle()
-  c.color('red')
+c.color('red')
+def circle1():
+  c.penup()
+  c.sety(-250)
+  c.pendown()
   c.begin_fill()
-  c.circle(10)
+  c.circle(250)
+  c.color('red')
   c.end_fill()
-  
-smallcircle()
+circle1()
