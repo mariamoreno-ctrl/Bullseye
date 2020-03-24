@@ -1,0 +1,66 @@
+#Creates a full Bullseye
+
+from turtle import Turtle
+c = Turtle()
+c.speed(10)
+
+def circle1():
+  c.penup()
+  c.sety(-250)
+  c.pendown()
+  c.begin_fill()
+  c.circle(250)
+  c.color('red')
+  c.end_fill()
+circle1()
+
+def circle2():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.begin_fill()
+  c.circle(200)
+  c.color('yellow')
+  c.end_fill()
+circle2()
+
+def circle3():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.begin_fill()
+  c.circle(150)
+  c.color('blue')
+  c.end_fill()
+circle3()
+
+def circle4():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.begin_fill()
+  c.circle(100)
+  c.color('green')
+  c.end_fill()
+circle4()
+
+def circle5():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.begin_fill()
+  c.circle(50)
+  c.color('red')
+  c.end_fill()
+circle5() 
+
+def circle6():
+  c.hideturtle()
+  c.left(90)
+  c.forward(35)
+  c.right(90)
+  c.begin_fill()
+  c.circle(15)
+  c.color('black')
+  c.end_fill()
+circle6()
