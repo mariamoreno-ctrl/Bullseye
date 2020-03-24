@@ -1,0 +1,52 @@
+# Code creates 5 different circles inside the big red circle
+
+from turtle import Turtle
+c = Turtle()
+c.color('red')
+c.speed(5)
+def circle1():
+  c.penup()
+  c.sety(-250)
+  c.pendown()
+  c.begin_fill()
+  c.circle(250)
+  c.color('red')
+  c.end_fill()
+circle1()
+
+c.color('black')
+def circle2():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.circle(200)
+circle2()
+
+def circle3():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.circle(150)
+circle3()
+
+def circle4():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.circle(100)
+circle4()
+
+def circle5():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.circle(50)
+circle5() 
+
+def circle6():
+  c.left(90)
+  c.forward(50)
+  c.right(90)
+  c.width(10)
+  c.circle(1)
+circle6()
