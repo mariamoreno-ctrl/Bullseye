@@ -1,0 +1,13 @@
+#This code creates a small red circle in the middle
+
+from turtle import Turtle
+c = Turtle()
+
+def smallcircle():
+  c.hideturtle()
+  c.color('red')
+  c.begin_fill()
+  c.circle(10)
+  c.end_fill()
+  
+smallcircle()
